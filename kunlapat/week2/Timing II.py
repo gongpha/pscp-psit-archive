@@ -11,9 +11,10 @@ def main() -> int:
     output_second = input_second-86400*output_day-3600*output_hour-60*output_minute
 
     if output_day < 10000:
-        print("{:04d}:{:02d}"
-              ":{:02d}:{:02d}".format(output_day,
-                                      output_hour, output_minute, output_second))
+        print("{:04d}:{:02d}:{:02d}:{:02d}".format(output_day,
+                                                   output_hour,
+                                                   output_minute,
+                                                   output_second))
     else:
         print("ERR_:__:__:__")
 
