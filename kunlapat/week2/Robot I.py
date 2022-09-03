@@ -5,12 +5,12 @@ def main() -> int:
     """The main function"""
     name = str(input())
     age = float(input())
-    
+
     if age < 18:
-        print(f"{name}, you can pass.")
-    else: 
-        print(f"{name}, you shall not pass.")
-        
+        print("{}, you can pass.".format(name))
+    else:
+        print("{}, you shall not pass.".format(name))
+
 
     return 0
 
