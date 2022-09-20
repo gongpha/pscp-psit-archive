@@ -1,4 +1,4 @@
-""" DID YOU CHALLENGE ME FOR AVOID ME TO USE [] ? """
+""" _ """
 
 def main():
     """ _ """
