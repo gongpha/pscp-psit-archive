@@ -1,4 +1,4 @@
-"""Converts seconds into a timestamp"""
+"""Thing"""
 
 
 def main() -> int:
